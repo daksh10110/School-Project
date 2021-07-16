@@ -40,7 +40,6 @@ def generate(n):
 
     # combine the character randomly selected above
     # at this stage, the password contains only 4 characters but
-    # we want a 12-character password
     temp_pass = rand_digit + rand_upper + rand_lower + rand_symbol
 
     # now that we are sure we have at least one character from each
